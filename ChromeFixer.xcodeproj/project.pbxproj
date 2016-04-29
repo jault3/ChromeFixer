@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27A6EA861CD2DDA700C8B1AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A6EA851CD2DDA700C8B1AF /* AppDelegate.swift */; };
+		27A6EA881CD2DDA700C8B1AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A6EA871CD2DDA700C8B1AF /* ViewController.swift */; };
+		27A6EA8A1CD2DDA700C8B1AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27A6EA891CD2DDA700C8B1AF /* Assets.xcassets */; };
+		27A6EA8D1CD2DDA800C8B1AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27A6EA8B1CD2DDA800C8B1AF /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		27A6EA821CD2DDA700C8B1AF /* ChromeFixer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChromeFixer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27A6EA851CD2DDA700C8B1AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		27A6EA871CD2DDA700C8B1AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		27A6EA891CD2DDA700C8B1AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27A6EA8C1CD2DDA800C8B1AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27A6EA8E1CD2DDA800C8B1AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27A6EA7F1CD2DDA700C8B1AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27A6EA791CD2DDA700C8B1AF = {
+			isa = PBXGroup;
+			children = (
+				27A6EA841CD2DDA700C8B1AF /* ChromeFixer */,
+				27A6EA831CD2DDA700C8B1AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27A6EA831CD2DDA700C8B1AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27A6EA821CD2DDA700C8B1AF /* ChromeFixer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27A6EA841CD2DDA700C8B1AF /* ChromeFixer */ = {
+			isa = PBXGroup;
+			children = (
+				27A6EA851CD2DDA700C8B1AF /* AppDelegate.swift */,
+				27A6EA871CD2DDA700C8B1AF /* ViewController.swift */,
+				27A6EA891CD2DDA700C8B1AF /* Assets.xcassets */,
+				27A6EA8B1CD2DDA800C8B1AF /* Main.storyboard */,
+				27A6EA8E1CD2DDA800C8B1AF /* Info.plist */,
+			);
+			path = ChromeFixer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27A6EA811CD2DDA700C8B1AF /* ChromeFixer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27A6EA911CD2DDA800C8B1AF /* Build configuration list for PBXNativeTarget "ChromeFixer" */;
+			buildPhases = (
+				27A6EA7E1CD2DDA700C8B1AF /* Sources */,
+				27A6EA7F1CD2DDA700C8B1AF /* Frameworks */,
+				27A6EA801CD2DDA700C8B1AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChromeFixer;
+			productName = ChromeFixer;
+			productReference = 27A6EA821CD2DDA700C8B1AF /* ChromeFixer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27A6EA7A1CD2DDA700C8B1AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ault.io;
+				TargetAttributes = {
+					27A6EA811CD2DDA700C8B1AF = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 27A6EA7D1CD2DDA700C8B1AF /* Build configuration list for PBXProject "ChromeFixer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27A6EA791CD2DDA700C8B1AF;
+			productRefGroup = 27A6EA831CD2DDA700C8B1AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27A6EA811CD2DDA700C8B1AF /* ChromeFixer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27A6EA801CD2DDA700C8B1AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A6EA8A1CD2DDA700C8B1AF /* Assets.xcassets in Resources */,
+				27A6EA8D1CD2DDA800C8B1AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27A6EA7E1CD2DDA700C8B1AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A6EA881CD2DDA700C8B1AF /* ViewController.swift in Sources */,
+				27A6EA861CD2DDA700C8B1AF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		27A6EA8B1CD2DDA800C8B1AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27A6EA8C1CD2DDA800C8B1AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27A6EA8F1CD2DDA800C8B1AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27A6EA901CD2DDA800C8B1AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		27A6EA921CD2DDA800C8B1AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ChromeFixer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.ault.ChromeFixer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		27A6EA931CD2DDA800C8B1AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ChromeFixer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.ault.ChromeFixer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27A6EA7D1CD2DDA700C8B1AF /* Build configuration list for PBXProject "ChromeFixer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27A6EA8F1CD2DDA800C8B1AF /* Debug */,
+				27A6EA901CD2DDA800C8B1AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27A6EA911CD2DDA800C8B1AF /* Build configuration list for PBXNativeTarget "ChromeFixer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27A6EA921CD2DDA800C8B1AF /* Debug */,
+				27A6EA931CD2DDA800C8B1AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27A6EA7A1CD2DDA700C8B1AF /* Project object */;
+}
