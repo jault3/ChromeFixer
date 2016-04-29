@@ -22,20 +22,39 @@
  SOFTWARE.
  */
 
-import Cocoa
+import Foundation
 
-@NSApplicationMain
-class AppDelegate: NSObject, NSApplicationDelegate {
-
-
-    func applicationDidFinishLaunching(aNotification: NSNotification) {
-        // Insert code here to initialize your application
+struct Pickle {
+    let content: NSData
+    var payloadLen = 0
+    var location = 0
+    
+    init(_ content: NSData) {
+        self.content = content
+    }
+    
+    mutating func initializePayload() {
+        // read 4 bytes as uint32 for the payloadLen
+        content.getBytes(&payloadLen, range: NSRange(location: 0, length: 4))
+        location = content.length - payloadLen
+    }
+    
+    mutating func resetLocation() {
+        location = content.length - payloadLen
     }
 
-    func applicationWillTerminate(aNotification: NSNotification) {
-        // Insert code here to tear down your application
+    mutating func readUInt32() -> UInt32 {
+        var u32: UInt32 = 0
+        content.getBytes(&u32, range: NSRange(location: location, length: 4))
+        location += 4
+        return u32
     }
-
-
+    
+    mutating func readString() -> String {
+        let strLen = Int(readUInt32())
+        // apparently this can be too large? TODO figure out how/when/why
+        let subData = content.subdataWithRange(NSRange(location: location, length: strLen))
+        location += strLen
+        return String(data: subData, encoding: NSUTF8StringEncoding) ?? "Invalid string"
+    }
 }
-
